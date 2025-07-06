@@ -71,16 +71,16 @@ export default function Home() {
   const commercialVideos = [
     {
       id: "1",
-      title: "Instagram Post - C_XwUrwsSZs",
-      description: "Commercial video editing project",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Post",
+      title: "COFFEA - Brew On the Rocks",
+      description: "Coffee brand commercial campaign",
+      thumbnail: "/commercial-coffea.png",
       url: "https://www.instagram.com/p/C_XwUrwsSZs/"
     },
     {
       id: "2", 
-      title: "Instagram Post - DALVPYky00j",
-      description: "Brand campaign video",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Post",
+      title: "BISTRO by PIZZAWALA",
+      description: "Restaurant brand commercial",
+      thumbnail: "/commercial-bistro.png",
       url: "https://www.instagram.com/p/DALVPYky00j/"
     }
   ];
