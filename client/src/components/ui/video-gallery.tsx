@@ -42,26 +42,40 @@ export function VideoGallery({ videos, title, horizontal = false, className }: V
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
     >
-      <Card className={cn(
-        "glass-morphism border-[hsl(15,100%,60%)]/20 overflow-hidden",
-        horizontal ? "min-w-[320px]" : "",
-        video.isVertical ? "min-w-[280px]" : ""
-      )}>
-        <CardContent className="p-6">
-          <div className={cn(
-            "rounded-xl mb-4 overflow-hidden",
-            video.isVertical ? "aspect-[9/16]" : "video-preview"
-          )}>
-            <img
-              src={video.thumbnail}
-              alt={video.title}
-              className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-            />
-          </div>
-          <h3 className="font-bold text-lg mb-2">{video.title}</h3>
-          <p className="text-[hsl(0,0%,40%)] text-sm">{video.description}</p>
-        </CardContent>
-      </Card>
+      <a 
+        href={video.url} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <Card className={cn(
+          "glass-morphism border-[hsl(15,100%,60%)]/20 overflow-hidden cursor-pointer hover:border-[hsl(15,100%,60%)]/40 transition-all duration-300",
+          horizontal ? "min-w-[320px]" : "",
+          video.isVertical ? "min-w-[280px]" : ""
+        )}>
+          <CardContent className="p-6">
+            <div className={cn(
+              "rounded-xl mb-4 overflow-hidden relative group",
+              video.isVertical ? "aspect-[9/16]" : "video-preview"
+            )}>
+              <img
+                src={video.thumbnail}
+                alt={video.title}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <div className="w-12 h-12 bg-[hsl(15,100%,60%)] rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M8 5v10l8-5-8-5z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <h3 className="font-bold text-lg mb-2">{video.title}</h3>
+            <p className="text-[hsl(0,0%,40%)] text-sm">{video.description}</p>
+          </CardContent>
+        </Card>
+      </a>
     </motion.div>
   );
 

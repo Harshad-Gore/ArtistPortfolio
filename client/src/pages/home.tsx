@@ -29,41 +29,41 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Sample video data
+  // YouTube video data
   const youtubeVideos = [
     {
       id: "1",
       title: "Creative Edit #1",
       description: "Dynamic storytelling with motion graphics",
-      thumbnail: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      thumbnail: "https://img.youtube.com/vi/MWWMG_qBU50/maxresdefault.jpg",
       url: "https://youtu.be/MWWMG_qBU50"
     },
     {
       id: "2",
       title: "Creative Edit #2",
       description: "Cinematic color grading and pacing",
-      thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      thumbnail: "https://img.youtube.com/vi/7EuslqHdDUg/maxresdefault.jpg",
       url: "https://youtu.be/7EuslqHdDUg"
     },
     {
       id: "3",
       title: "Creative Edit #3",
       description: "VFX integration and animation",
-      thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      thumbnail: "https://img.youtube.com/vi/anmjZV8-qZE/maxresdefault.jpg",
       url: "https://youtu.be/anmjZV8-qZE"
     },
     {
       id: "4",
       title: "Creative Edit #4",
       description: "Multi-camera editing and transitions",
-      thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      thumbnail: "https://img.youtube.com/vi/-ZxBFT3ixSg/maxresdefault.jpg",
       url: "https://youtu.be/-ZxBFT3ixSg"
     },
     {
       id: "5",
       title: "Creative Edit #5",
       description: "Sound design and audio mixing",
-      thumbnail: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      thumbnail: "https://img.youtube.com/vi/g4SXvT3Agrk/maxresdefault.jpg",
       url: "https://youtu.be/g4SXvT3Agrk"
     }
   ];
@@ -85,8 +85,8 @@ export default function Home() {
     },
     {
       id: "3",
-      title: "Corporate Video",
-      description: "Professional brand storytelling",
+      title: "SBI SPELLBEE Campaign",
+      description: "Full-width promo style campaign",
       thumbnail: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
       url: "https://drive.google.com/drive/folders/10yPGlZrZQmPzXcx5W0r0Nl_24tSIPzCm"
     }
@@ -97,7 +97,7 @@ export default function Home() {
       id: "1",
       title: "Viral Reel",
       description: "Quick-cut editing style",
-      thumbnail: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      thumbnail: "https://img.youtube.com/vi/sT17F1BvvXg/maxresdefault.jpg",
       url: "https://www.youtube.com/shorts/sT17F1BvvXg",
       isVertical: true
     },
@@ -115,14 +115,6 @@ export default function Home() {
       description: "Animated text overlays",
       thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
       url: "https://drive.google.com/file/d/1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8/view",
-      isVertical: true
-    },
-    {
-      id: "4",
-      title: "Promo Reel",
-      description: "Brand integration",
-      thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
-      url: "#",
       isVertical: true
     }
   ];
@@ -196,7 +188,7 @@ export default function Home() {
     {
       id: "1",
       title: "Workout Reel",
-      description: "High-energy editing",
+      description: "High-energy editing for @befitwithritvik",
       thumbnail: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
       url: "https://www.instagram.com/befitwithritvik/reel/DITr2JEC7qR/",
       isVertical: true
@@ -204,7 +196,7 @@ export default function Home() {
     {
       id: "2",
       title: "Training Tips",
-      description: "Educational content",
+      description: "Educational content for @befitwithritvik",
       thumbnail: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
       url: "https://www.instagram.com/befitwithritvik/reel/DIwMldtiUds/",
       isVertical: true
@@ -212,7 +204,7 @@ export default function Home() {
     {
       id: "3",
       title: "Transformation",
-      description: "Motivational stories",
+      description: "Motivational stories for @befitwithritvik",
       thumbnail: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
       url: "https://www.instagram.com/befitwithritvik/reel/DHaD4KBTmTH/",
       isVertical: true
