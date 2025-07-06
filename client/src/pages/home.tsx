@@ -231,39 +231,7 @@ export default function Home() {
       isVertical: true
     },
     {
-      id: "custom-1",
-      title: "Richmond Park - Custom Reel",
-      description: "Creative reel editing",
-      thumbnail: "/reel-thumb-1.png",
-      url: "#",
-      isVertical: true
-    },
-    {
-      id: "custom-2",
-      title: "1,000,000₹ - Custom Reel",
-      description: "Creative reel editing",
-      thumbnail: "/reel-thumb-2.png",
-      url: "#",
-      isVertical: true
-    },
-    {
-      id: "custom-3",
-      title: "Katherina - Custom Reel",
-      description: "Creative reel editing",
-      thumbnail: "/reel-thumb-3.png",
-      url: "#",
-      isVertical: true
-    },
-    {
-      id: "custom-4",
-      title: "Cinematic Portrait - Custom Reel",
-      description: "Creative reel editing",
-      thumbnail: "/reel-thumb-4.png",
-      url: "#",
-      isVertical: true
-    },
-    {
-      id: "23",
+      id: "19",
       title: "Drive Video - 1bRu3R-lY7IIgVEMyzojdR22rfDQaLLuu",
       description: "Creative short from Drive",
       thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Drive+Video",
@@ -271,7 +239,15 @@ export default function Home() {
       isVertical: true
     },
     {
-      id: "24",
+      id: "20",
+      title: "Instagram Reel - CyI4xTsvgDv",
+      description: "Instagram Reel editing",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      url: "https://www.instagram.com/reel/CyI4xTsvgDv/?igsh=Y2ZmOGU3amdqNm4w",
+      isVertical: true
+    },
+    {
+      id: "21",
       title: "Drive Video - 1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8",
       description: "Creative short from Drive",
       thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Drive+Video",
@@ -279,7 +255,7 @@ export default function Home() {
       isVertical: true
     },
     {
-      id: "25",
+      id: "22",
       title: "Instagram Reel - CoDHnfBgkxT",
       description: "Instagram Reel editing",
       thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
@@ -287,13 +263,21 @@ export default function Home() {
       isVertical: true
     },
     {
-      id: "26",
+      id: "23",
       title: "Instagram Reel - CtZEq0Og6F8",
       description: "Instagram Reel editing",
       thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
       url: "https://www.instagram.com/reel/CtZEq0Og6F8",
       isVertical: true
     },
+    {
+      id: "24",
+      title: "Instagram Reel - Cqco5fpj5d",
+      description: "Instagram Reel editing",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      url: "https://www.instagram.com/reel/Cqco5fpj5d",
+      isVertical: true
+    }
 
   ];
 
