@@ -49,11 +49,10 @@ export function VideoGallery({ videos, title, horizontal = false, className }: V
         className="block"
       >
         <Card className={cn(
-          "glass-morphism border-[hsl(15,100%,60%)]/20 overflow-hidden cursor-pointer hover:border-[hsl(15,100%,60%)]/40 transition-all duration-300",
-          horizontal ? "min-w-[320px]" : "",
-          video.isVertical ? "min-w-[280px]" : ""
+          "glass-morphism border-[hsl(15,100%,60%)]/20 overflow-hidden cursor-pointer hover:border-[hsl(15,100%,60%)]/40 transition-all duration-300 h-full",
+          horizontal ? (video.isVertical ? "min-w-[300px] max-w-[300px]" : "min-w-[350px] max-w-[350px]") : "w-full"
         )}>
-          <CardContent className="p-6">
+          <CardContent className="p-6 flex flex-col h-full">
             <div className={cn(
               "rounded-xl mb-4 overflow-hidden relative group",
               video.isVertical ? "aspect-[9/16]" : "video-preview"
@@ -71,8 +70,10 @@ export function VideoGallery({ videos, title, horizontal = false, className }: V
                 </div>
               </div>
             </div>
-            <h3 className="font-bold text-lg mb-2">{video.title}</h3>
-            <p className="text-[hsl(0,0%,40%)] text-sm">{video.description}</p>
+            <div className="flex-1 flex flex-col justify-between">
+              <h3 className="font-bold text-lg mb-2 line-clamp-2">{video.title}</h3>
+              <p className="text-[hsl(0,0%,40%)] text-sm line-clamp-2">{video.description}</p>
+            </div>
           </CardContent>
         </Card>
       </a>

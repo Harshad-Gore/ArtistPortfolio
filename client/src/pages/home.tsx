@@ -82,9 +82,12 @@ export default function Home() {
       description: "BISTRO by PIZZAWALA promotional content",
       thumbnail: "/commercial-bistro.png",
       url: "https://www.instagram.com/p/DALVPYky00j/"
-    },
+    }
+  ];
+
+  const sbiSpellbeeVideos = [
     {
-      id: "3",
+      id: "1",
       title: "SBI SPELLBEE Campaign",
       description: "Educational competition promotional content",
       thumbnail: "/sbi-spellbee-thumb.png",
@@ -95,192 +98,192 @@ export default function Home() {
   const reelsVideos = [
     {
       id: "1",
-      title: "YouTube Short - sT17F1BvvXg",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Professional short-form content creation",
       thumbnail: "https://img.youtube.com/vi/sT17F1BvvXg/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/sT17F1BvvXg",
       isVertical: true
     },
     {
       id: "2",
-      title: "YouTube Short - eLUtgS3w1AQ",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Engaging vertical video content",
       thumbnail: "https://img.youtube.com/vi/eLUtgS3w1AQ/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/eLUtgS3w1AQ",
       isVertical: true
     },
     {
       id: "3",
-      title: "YouTube Short - jFIp5cIDFws",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Creative short-form storytelling",
       thumbnail: "https://img.youtube.com/vi/jFIp5cIDFws/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/jFIp5cIDFws",
       isVertical: true
     },
     {
       id: "4",
-      title: "YouTube Short - 5_pJi_67NuM",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Dynamic vertical video production",
       thumbnail: "https://img.youtube.com/vi/5_pJi_67NuM/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/5_pJi_67NuM",
       isVertical: true
     },
     {
       id: "5",
-      title: "YouTube Short - -Pkhr_wQ5Qw",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Professional mobile-first content",
       thumbnail: "https://img.youtube.com/vi/-Pkhr_wQ5Qw/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/-Pkhr_wQ5Qw",
       isVertical: true
     },
     {
       id: "6",
-      title: "YouTube Short - 2rKh2wSEgq8",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Viral short-form video creation",
       thumbnail: "https://img.youtube.com/vi/2rKh2wSEgq8/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/2rKh2wSEgq8",
       isVertical: true
     },
     {
       id: "7",
-      title: "YouTube Short - a2By4F2K-F0",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Compelling vertical storytelling",
       thumbnail: "https://img.youtube.com/vi/a2By4F2K-F0/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/a2By4F2K-F0",
       isVertical: true
     },
     {
       id: "8",
-      title: "YouTube Short - AVnWA6UpGAk",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "High-impact short content",
       thumbnail: "https://img.youtube.com/vi/AVnWA6UpGAk/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/AVnWA6UpGAk",
       isVertical: true
     },
     {
       id: "9",
-      title: "YouTube Short - G5qPuGfbCPY",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Creative vertical video editing",
       thumbnail: "https://img.youtube.com/vi/G5qPuGfbCPY/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/G5qPuGfbCPY",
       isVertical: true
     },
     {
       id: "10",
-      title: "YouTube Short - -ptu4DhxTXM",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Engaging mobile content creation",
       thumbnail: "https://img.youtube.com/vi/-ptu4DhxTXM/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/-ptu4DhxTXM",
       isVertical: true
     },
     {
       id: "11",
-      title: "YouTube Short - kpi8vQ8bFP8",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Professional short-form production",
       thumbnail: "https://img.youtube.com/vi/kpi8vQ8bFP8/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/kpi8vQ8bFP8",
       isVertical: true
     },
     {
       id: "12",
-      title: "YouTube Short - qVNleVe6J4Y",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Dynamic vertical video content",
       thumbnail: "https://img.youtube.com/vi/qVNleVe6J4Y/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/qVNleVe6J4Y",
       isVertical: true
     },
     {
       id: "13",
-      title: "YouTube Short - lOb_-1vaiKA",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Creative short-form video editing",
       thumbnail: "https://img.youtube.com/vi/lOb_-1vaiKA/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/lOb_-1vaiKA",
       isVertical: true
     },
     {
       id: "14",
-      title: "YouTube Short - j76J6bx0zco",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Professional vertical content creation",
       thumbnail: "https://img.youtube.com/vi/j76J6bx0zco/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/j76J6bx0zco",
       isVertical: true
     },
     {
       id: "15",
-      title: "YouTube Short - IBmpQC0hn5E",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Engaging short-form storytelling",
       thumbnail: "https://img.youtube.com/vi/IBmpQC0hn5E/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/IBmpQC0hn5E",
       isVertical: true
     },
     {
       id: "16",
-      title: "YouTube Short - 9V9Zd9DVINo",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "High-quality vertical video production",
       thumbnail: "https://img.youtube.com/vi/9V9Zd9DVINo/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/9V9Zd9DVINo",
       isVertical: true
     },
     {
       id: "17",
-      title: "YouTube Short - ccvSBXjrcTQ",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Creative mobile-first content",
       thumbnail: "https://img.youtube.com/vi/ccvSBXjrcTQ/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/ccvSBXjrcTQ",
       isVertical: true
     },
     {
       id: "18",
-      title: "YouTube Short - w7bdA42x2kg",
-      description: "YouTube Shorts editing",
+      title: "YouTube Shorts editing",
+      description: "Professional short-form video creation",
       thumbnail: "https://img.youtube.com/vi/w7bdA42x2kg/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/w7bdA42x2kg",
       isVertical: true
     },
     {
       id: "19",
-      title: "Drive Video - 1bRu3R-lY7IIgVEMyzojdR22rfDQaLLuu",
-      description: "Creative short from Drive",
+      title: "Creative short from Drive",
+      description: "Innovative vertical video content",
       thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1bRu3R-lY7IIgVEMyzojdR22rfDQaLLuu/view?usp=sharing",
       isVertical: true
     },
     {
       id: "20",
-      title: "Instagram Reel - CyI4xTsvgDv",
-      description: "Instagram Reel editing",
+      title: "Instagram Reel editing",
+      description: "Professional social media content",
       thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CyI4xTsvgDv/?igsh=Y2ZmOGU3amdqNm4w",
       isVertical: true
     },
     {
       id: "21",
-      title: "Drive Video - 1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8",
-      description: "Creative short from Drive",
+      title: "Creative short from Drive",
+      description: "Unique vertical video storytelling",
       thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8/view?usp=sharing",
       isVertical: true
     },
     {
       id: "22",
-      title: "Instagram Reel - CoDHnfBgkxT",
-      description: "Instagram Reel editing",
+      title: "Instagram Reel editing",
+      description: "Engaging social media content creation",
       thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CoDHnfBgkxT",
       isVertical: true
     },
     {
       id: "23",
-      title: "Instagram Reel - CtZEq0Og6F8",
-      description: "Instagram Reel editing",
+      title: "Instagram Reel editing",
+      description: "Creative Instagram content production",
       thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CtZEq0Og6F8",
       isVertical: true
     },
     {
       id: "24",
-      title: "Instagram Reel - Cqco5fpj5d",
-      description: "Instagram Reel editing",
+      title: "Instagram Reel editing",
+      description: "Professional reel content creation",
       thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/Cqco5fpj5d",
       isVertical: true
@@ -738,6 +741,17 @@ export default function Home() {
           <VideoGallery
             videos={commercialVideos}
             title="Commercial Work"
+            horizontal={true}
+          />
+        </div>
+      </SectionWrapper>
+
+      {/* SBI SPELLBEE Campaign Section */}
+      <SectionWrapper>
+        <div className="max-w-7xl mx-auto px-6">
+          <VideoGallery
+            videos={sbiSpellbeeVideos}
+            title="SBI SPELLBEE Campaign"
             horizontal={true}
           />
         </div>
