@@ -29,41 +29,41 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // YouTube video data
+  // YouTube video data with authentic thumbnails
   const youtubeVideos = [
     {
       id: "1",
-      title: "Creative Edit #1",
-      description: "Dynamic storytelling with motion graphics",
-      thumbnail: "https://img.youtube.com/vi/MWWMG_qBU50/maxresdefault.jpg",
+      title: "MWWMG_qBU50",
+      description: "Professional video editing showcase",
+      thumbnail: "https://img.youtube.com/vi/MWWMG_qBU50/hqdefault.jpg",
       url: "https://youtu.be/MWWMG_qBU50"
     },
     {
       id: "2",
-      title: "Creative Edit #2",
-      description: "Cinematic color grading and pacing",
-      thumbnail: "https://img.youtube.com/vi/7EuslqHdDUg/maxresdefault.jpg",
+      title: "7EuslqHdDUg",
+      description: "Cinematic storytelling and editing",
+      thumbnail: "https://img.youtube.com/vi/7EuslqHdDUg/hqdefault.jpg",
       url: "https://youtu.be/7EuslqHdDUg"
     },
     {
       id: "3",
-      title: "Creative Edit #3",
-      description: "VFX integration and animation",
-      thumbnail: "https://img.youtube.com/vi/anmjZV8-qZE/maxresdefault.jpg",
+      title: "anmjZV8-qZE",
+      description: "Creative visual effects and animation",
+      thumbnail: "https://img.youtube.com/vi/anmjZV8-qZE/hqdefault.jpg",
       url: "https://youtu.be/anmjZV8-qZE"
     },
     {
       id: "4",
-      title: "Creative Edit #4",
-      description: "Multi-camera editing and transitions",
-      thumbnail: "https://img.youtube.com/vi/-ZxBFT3ixSg/maxresdefault.jpg",
+      title: "-ZxBFT3ixSg",
+      description: "Advanced editing techniques",
+      thumbnail: "https://img.youtube.com/vi/-ZxBFT3ixSg/hqdefault.jpg",
       url: "https://youtu.be/-ZxBFT3ixSg"
     },
     {
       id: "5",
-      title: "Creative Edit #5",
-      description: "Sound design and audio mixing",
-      thumbnail: "https://img.youtube.com/vi/g4SXvT3Agrk/maxresdefault.jpg",
+      title: "g4SXvT3Agrk",
+      description: "Professional audio and video editing",
+      thumbnail: "https://img.youtube.com/vi/g4SXvT3Agrk/hqdefault.jpg",
       url: "https://youtu.be/g4SXvT3Agrk"
     }
   ];
@@ -71,23 +71,23 @@ export default function Home() {
   const commercialVideos = [
     {
       id: "1",
-      title: "Brand Campaign",
-      description: "High-impact commercial editing",
-      thumbnail: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Instagram Post - C_XwUrwsSZs",
+      description: "Commercial video editing project",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Post",
       url: "https://www.instagram.com/p/C_XwUrwsSZs/"
     },
     {
-      id: "2",
-      title: "Product Launch",
-      description: "Dynamic product showcase",
-      thumbnail: "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      id: "2", 
+      title: "Instagram Post - DALVPYky00j",
+      description: "Brand campaign video",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Post",
       url: "https://www.instagram.com/p/DALVPYky00j/"
     },
     {
       id: "3",
       title: "SBI SPELLBEE Campaign",
-      description: "Full-width promo style campaign",
-      thumbnail: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      description: "Drive folder with campaign materials",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Folder",
       url: "https://drive.google.com/drive/folders/10yPGlZrZQmPzXcx5W0r0Nl_24tSIPzCm"
     }
   ];
@@ -95,25 +95,25 @@ export default function Home() {
   const reelsVideos = [
     {
       id: "1",
-      title: "Viral Reel",
-      description: "Quick-cut editing style",
-      thumbnail: "https://img.youtube.com/vi/sT17F1BvvXg/maxresdefault.jpg",
+      title: "YouTube Short - sT17F1BvvXg",
+      description: "YouTube Shorts editing",
+      thumbnail: "https://img.youtube.com/vi/sT17F1BvvXg/hqdefault.jpg",
       url: "https://www.youtube.com/shorts/sT17F1BvvXg",
       isVertical: true
     },
     {
       id: "2",
-      title: "Trending Short",
-      description: "Catchy transitions",
-      thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      title: "Instagram Reel - CyI4xTsvgDv",
+      description: "Instagram Reel editing",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
       url: "https://www.instagram.com/reel/CyI4xTsvgDv/",
       isVertical: true
     },
     {
       id: "3",
-      title: "Creative Short",
-      description: "Animated text overlays",
-      thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      title: "Drive File - 1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8",
+      description: "Creative short from Drive",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Drive+Video",
       url: "https://drive.google.com/file/d/1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8/view",
       isVertical: true
     }
@@ -122,23 +122,23 @@ export default function Home() {
   const realEstateVideos = [
     {
       id: "1",
-      title: "Luxury Home Tour",
-      description: "Cinematic property showcase",
-      thumbnail: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Real Estate Video - 1ow_zuGhR3HXHd7GGxH3JsIQfCj_UF_zh",
+      description: "Professional property showcase",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
       url: "https://drive.google.com/file/d/1ow_zuGhR3HXHd7GGxH3JsIQfCj_UF_zh/view"
     },
     {
       id: "2",
-      title: "Modern Apartment",
-      description: "Smooth aerial transitions",
-      thumbnail: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Real Estate Video - 1oVJ3SzmZrtHJPtKjTR5uB2A7gLk2F5xl",
+      description: "Property tour editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
       url: "https://drive.google.com/file/d/1oVJ3SzmZrtHJPtKjTR5uB2A7gLk2F5xl/view"
     },
     {
       id: "3",
-      title: "Commercial Space",
-      description: "Professional presentation",
-      thumbnail: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Real Estate Video - 1-a5SRQhH35fcPyYM8dKll_CUETukoF7h",
+      description: "Commercial property presentation",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
       url: "https://drive.google.com/file/d/1-a5SRQhH35fcPyYM8dKll_CUETukoF7h/view"
     }
   ];
@@ -146,23 +146,23 @@ export default function Home() {
   const weddingVideos = [
     {
       id: "1",
-      title: "Ceremony Highlight",
-      description: "Emotional storytelling",
-      thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Wedding Film - DJtmzgNsRj8",
+      description: "Instagram wedding highlight",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
       url: "https://www.instagram.com/p/DJtmzgNsRj8/"
     },
     {
       id: "2",
-      title: "Reception Moments",
-      description: "Joyful celebrations",
-      thumbnail: "https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Wedding Film - DGD5YLTyHU0",
+      description: "Wedding ceremony editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
       url: "https://www.instagram.com/p/DGD5YLTyHU0/"
     },
     {
       id: "3",
-      title: "Love Story",
-      description: "Romantic cinematography",
-      thumbnail: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Wedding Film - C-i4SpyMNKQ",
+      description: "Wedding story editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
       url: "https://www.instagram.com/p/C-i4SpyMNKQ/"
     }
   ];
@@ -170,16 +170,16 @@ export default function Home() {
   const standUpVideos = [
     {
       id: "1",
-      title: "Comedy Special",
-      description: "Multi-camera live performance",
-      thumbnail: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Stand-Up Video - 1WyEn7SwDsEfi6-TAf9QL2YCi1PZXmfYw",
+      description: "Comedy performance editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Stand+Up",
       url: "https://drive.google.com/file/d/1WyEn7SwDsEfi6-TAf9QL2YCi1PZXmfYw/view"
     },
     {
       id: "2",
-      title: "Open Mic Night",
-      description: "Intimate venue capture",
-      thumbnail: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Stand-Up Video - 1QdSgWOSbl7Ce-CGB76Hzkj8p1UN3nSxe",
+      description: "Live performance capture",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Stand+Up",
       url: "https://drive.google.com/file/d/1QdSgWOSbl7Ce-CGB76Hzkj8p1UN3nSxe/view"
     }
   ];
@@ -187,25 +187,25 @@ export default function Home() {
   const fitnessVideos = [
     {
       id: "1",
-      title: "Workout Reel",
-      description: "High-energy editing for @befitwithritvik",
-      thumbnail: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      title: "@befitwithritvik - DITr2JEC7qR",
+      description: "Fitness reel editing",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
       url: "https://www.instagram.com/befitwithritvik/reel/DITr2JEC7qR/",
       isVertical: true
     },
     {
       id: "2",
-      title: "Training Tips",
-      description: "Educational content for @befitwithritvik",
-      thumbnail: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      title: "@befitwithritvik - DIwMldtiUds",
+      description: "Training content editing",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
       url: "https://www.instagram.com/befitwithritvik/reel/DIwMldtiUds/",
       isVertical: true
     },
     {
       id: "3",
-      title: "Transformation",
-      description: "Motivational stories for @befitwithritvik",
-      thumbnail: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=533",
+      title: "@befitwithritvik - DHaD4KBTmTH",
+      description: "Fitness transformation reel",
+      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
       url: "https://www.instagram.com/befitwithritvik/reel/DHaD4KBTmTH/",
       isVertical: true
     }
@@ -214,23 +214,23 @@ export default function Home() {
   const surveyVideos = [
     {
       id: "1",
-      title: "Street Survey",
-      description: "Public opinion capture",
-      thumbnail: "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Survey Video - 1CMGnzK3cM4SrrtETnH23xAh9BZixSGn5",
+      description: "Street interview editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
       url: "https://drive.google.com/file/d/1CMGnzK3cM4SrrtETnH23xAh9BZixSGn5/view"
     },
     {
       id: "2",
-      title: "Interview Series",
-      description: "Structured conversations",
-      thumbnail: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Survey Video - 1Ckyk8ieUupvay0xJ4VYxDWags8c7Wc6z",
+      description: "Interview series editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
       url: "https://drive.google.com/file/d/1Ckyk8ieUupvay0xJ4VYxDWags8c7Wc6z/view"
     },
     {
       id: "3",
-      title: "Market Research",
-      description: "Data-driven content",
-      thumbnail: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Survey Video - 1Qd4cvgwMM9phjKVvHweSSL6JvyprST1v",
+      description: "Research content editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
       url: "https://drive.google.com/file/d/1Qd4cvgwMM9phjKVvHweSSL6JvyprST1v/view"
     }
   ];
@@ -238,16 +238,16 @@ export default function Home() {
   const documentaryVideos = [
     {
       id: "1",
-      title: "Social Impact",
-      description: "Compelling human stories",
-      thumbnail: "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Documentary - 1tJrYB3br2C1QlHGbpmfjgRWCytDSy10q",
+      description: "Documentary film editing",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Documentary",
       url: "https://drive.google.com/file/d/1tJrYB3br2C1QlHGbpmfjgRWCytDSy10q/view"
     },
     {
       id: "2",
-      title: "Cultural Heritage",
-      description: "Preserving traditions",
-      thumbnail: "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=338",
+      title: "Documentary - 11zMy9tNd5FSUlIkEvA7fpLhKtCULvDmn",
+      description: "Documentary storytelling",
+      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Documentary",
       url: "https://drive.google.com/file/d/11zMy9tNd5FSUlIkEvA7fpLhKtCULvDmn/view"
     }
   ];
