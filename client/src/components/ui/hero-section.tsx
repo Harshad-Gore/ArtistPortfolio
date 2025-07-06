@@ -34,7 +34,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
             <img
-              src="/attached_assets/pic_3.1.1_1751802800490.png"
+              src="/pic_3.1.1_1751802800490.png"
               alt="Kunal Garud professional headshot"
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:mx-0 object-cover"
               style={{ aspectRatio: "4/5" }}

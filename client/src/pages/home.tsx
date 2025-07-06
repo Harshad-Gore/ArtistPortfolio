@@ -284,10 +284,10 @@ export default function Home() {
   ];
 
   const tools = [
-    { name: "Adobe Premiere Pro", icon: "/attached_assets/Adobe_Premiere_Pro_CC_icon.svg_1751802886527.png" },
-    { name: "Adobe After Effects", icon: "/attached_assets/Adobe_After_Effects_CC_icon.svg_1751802886526.png" },
-    { name: "DaVinci Resolve", icon: "/attached_assets/DaVinci_Resolve_Studio_1751802886524.png" },
-    { name: "Blender", icon: "/attached_assets/Blender_logo_no_text.svg_1751802886528.png" }
+    { name: "Adobe Premiere Pro", icon: "/Adobe_Premiere_Pro_CC_icon.svg_1751802886527.png" },
+    { name: "Adobe After Effects", icon: "/Adobe_After_Effects_CC_icon.svg_1751802886526.png" },
+    { name: "DaVinci Resolve", icon: "/DaVinci_Resolve_Studio_1751802886524.png" },
+    { name: "Blender", icon: "/Blender_logo_no_text.svg_1751802886528.png" }
   ];
 
   const creators = [
