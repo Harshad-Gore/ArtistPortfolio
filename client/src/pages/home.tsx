@@ -65,6 +65,265 @@ export default function Home() {
       description: "Professional audio and video editing",
       thumbnail: "https://img.youtube.com/vi/g4SXvT3Agrk/hqdefault.jpg",
       url: "https://youtu.be/g4SXvT3Agrk"
+    },
+    {
+      id: "6",
+      title: "2k6hdmqVgJk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/2k6hdmqVgJk/hqdefault.jpg",
+      url: "https://youtu.be/2k6hdmqVgJk"
+    },
+    {
+      id: "7",
+      title: "TZKTWKKlgJE",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/TZKTWKKlgJE/hqdefault.jpg",
+      url: "https://youtu.be/TZKTWKKlgJE"
+    },
+    {
+      id: "8",
+      title: "EcGxPGFrj2E",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/EcGxPGFrj2E/hqdefault.jpg",
+      url: "https://youtu.be/EcGxPGFrj2E"
+    },
+    {
+      id: "9",
+      title: "WIFuoJHNE8k",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/WIFuoJHNE8k/hqdefault.jpg",
+      url: "https://youtu.be/WIFuoJHNE8k"
+    },
+    {
+      id: "10",
+      title: "VQcnUJb6uow",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/VQcnUJb6uow/hqdefault.jpg",
+      url: "https://youtu.be/VQcnUJb6uow"
+    },
+    {
+      id: "11",
+      title: "TqGG4XwdGJY",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/TqGG4XwdGJY/hqdefault.jpg",
+      url: "https://youtu.be/TqGG4XwdGJY"
+    },
+    {
+      id: "12",
+      title: "DmIFwNmcNLo",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/DmIFwNmcNLo/hqdefault.jpg",
+      url: "https://youtu.be/DmIFwNmcNLo"
+    },
+    {
+      id: "13",
+      title: "cSyEWxmFhEo",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/cSyEWxmFhEo/hqdefault.jpg",
+      url: "https://youtu.be/cSyEWxmFhEo"
+    },
+    {
+      id: "14",
+      title: "8QUEWNSgHb0",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/8QUEWNSgHb0/hqdefault.jpg",
+      url: "https://youtu.be/8QUEWNSgHb0"
+    },
+    {
+      id: "15",
+      title: "DL4RX-bYZdc",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/DL4RX-bYZdc/hqdefault.jpg",
+      url: "https://youtu.be/DL4RX-bYZdc"
+    },
+    {
+      id: "16",
+      title: "74H8-RiMq8Y",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/74H8-RiMq8Y/hqdefault.jpg",
+      url: "https://youtu.be/74H8-RiMq8Y"
+    },
+    {
+      id: "17",
+      title: "3dKCfKjQqtk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/3dKCfKjQqtk/hqdefault.jpg",
+      url: "https://youtu.be/3dKCfKjQqtk"
+    },
+    {
+      id: "18",
+      title: "mKjJqF0_VJY",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/mKjJqF0_VJY/hqdefault.jpg",
+      url: "https://youtu.be/mKjJqF0_VJY"
+    },
+    {
+      id: "19",
+      title: "hKYCFtOlxL4",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/hKYCFtOlxL4/hqdefault.jpg",
+      url: "https://youtu.be/hKYCFtOlxL4"
+    },
+    {
+      id: "20",
+      title: "yU59bGRMFLU",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/yU59bGRMFLU/hqdefault.jpg",
+      url: "https://youtu.be/yU59bGRMFLU"
+    },
+    {
+      id: "21",
+      title: "uOLDhFBcmD0",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/uOLDhFBcmD0/hqdefault.jpg",
+      url: "https://youtu.be/uOLDhFBcmD0"
+    },
+    {
+      id: "22",
+      title: "WnZhq5RNAXc",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/WnZhq5RNAXc/hqdefault.jpg",
+      url: "https://youtu.be/WnZhq5RNAXc"
+    },
+    {
+      id: "23",
+      title: "1NyOSzlKNrA",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/1NyOSzlKNrA/hqdefault.jpg",
+      url: "https://youtu.be/1NyOSzlKNrA"
+    },
+    {
+      id: "24",
+      title: "VJc8xkNBMT8",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/VJc8xkNBMT8/hqdefault.jpg",
+      url: "https://youtu.be/VJc8xkNBMT8"
+    },
+    {
+      id: "25",
+      title: "8xLwEZJ7AJM",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/8xLwEZJ7AJM/hqdefault.jpg",
+      url: "https://youtu.be/8xLwEZJ7AJM"
+    },
+    {
+      id: "26",
+      title: "9vdYdmkI9Qc",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/9vdYdmkI9Qc/hqdefault.jpg",
+      url: "https://youtu.be/9vdYdmkI9Qc"
+    },
+    {
+      id: "27",
+      title: "5FYgbJhHNa4",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/5FYgbJhHNa4/hqdefault.jpg",
+      url: "https://youtu.be/5FYgbJhHNa4"
+    },
+    {
+      id: "28",
+      title: "dFIv7zSbOXk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/dFIv7zSbOXk/hqdefault.jpg",
+      url: "https://youtu.be/dFIv7zSbOXk"
+    },
+    {
+      id: "29",
+      title: "mJg3vBNJ-8g",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/mJg3vBNJ-8g/hqdefault.jpg",
+      url: "https://youtu.be/mJg3vBNJ-8g"
+    },
+    {
+      id: "30",
+      title: "R3cGJ-hOVJ0",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/R3cGJ-hOVJ0/hqdefault.jpg",
+      url: "https://youtu.be/R3cGJ-hOVJ0"
+    },
+    {
+      id: "31",
+      title: "8FMXmgkTrfg",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/8FMXmgkTrfg/hqdefault.jpg",
+      url: "https://youtu.be/8FMXmgkTrfg"
+    },
+    {
+      id: "32",
+      title: "xHQrVQJHjog",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/xHQrVQJHjog/hqdefault.jpg",
+      url: "https://youtu.be/xHQrVQJHjog"
+    },
+    {
+      id: "33",
+      title: "gRWgpP4JCco",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/gRWgpP4JCco/hqdefault.jpg",
+      url: "https://youtu.be/gRWgpP4JCco"
+    },
+    {
+      id: "34",
+      title: "3SQGZsYEhVk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/3SQGZsYEhVk/hqdefault.jpg",
+      url: "https://youtu.be/3SQGZsYEhVk"
+    },
+    {
+      id: "35",
+      title: "YqxFVLEJgJw",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/YqxFVLEJgJw/hqdefault.jpg",
+      url: "https://youtu.be/YqxFVLEJgJw"
+    },
+    {
+      id: "36",
+      title: "8uxJGFi1zHM",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/8uxJGFi1zHM/hqdefault.jpg",
+      url: "https://youtu.be/8uxJGFi1zHM"
+    },
+    {
+      id: "37",
+      title: "lBUkOEfQdLw",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/lBUkOEfQdLw/hqdefault.jpg",
+      url: "https://youtu.be/lBUkOEfQdLw"
+    },
+    {
+      id: "38",
+      title: "4pZ_qCjfNdk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/4pZ_qCjfNdk/hqdefault.jpg",
+      url: "https://youtu.be/4pZ_qCjfNdk"
+    },
+    {
+      id: "39",
+      title: "3XJMqEYGhvE",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/3XJMqEYGhvE/hqdefault.jpg",
+      url: "https://youtu.be/3XJMqEYGhvE"
+    },
+    {
+      id: "40",
+      title: "MKFgKDYJJQ4",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/MKFgKDYJJQ4/hqdefault.jpg",
+      url: "https://youtu.be/MKFgKDYJJQ4"
+    },
+    {
+      id: "41",
+      title: "nQEZEBPJrFE",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/nQEZEBPJrFE/hqdefault.jpg",
+      url: "https://youtu.be/nQEZEBPJrFE"
+    },
+    {
+      id: "42",
+      title: "3dKCfKjQqtk",
+      description: "YouTube video editing",
+      thumbnail: "https://img.youtube.com/vi/3dKCfKjQqtk/hqdefault.jpg",
+      url: "https://youtu.be/3dKCfKjQqtk"
     }
   ];
 
@@ -487,6 +746,7 @@ export default function Home() {
           <VideoGallery
             videos={commercialVideos}
             title="Commercial Work"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -508,6 +768,7 @@ export default function Home() {
           <VideoGallery
             videos={realEstateVideos}
             title="Real Estate"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -518,6 +779,7 @@ export default function Home() {
           <VideoGallery
             videos={weddingVideos}
             title="Wedding Films"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -528,6 +790,7 @@ export default function Home() {
           <VideoGallery
             videos={standUpVideos}
             title="Stand-Up Comedy"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -538,6 +801,7 @@ export default function Home() {
           <VideoGallery
             videos={fitnessVideos}
             title="Fitness Content"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -577,6 +841,7 @@ export default function Home() {
           <VideoGallery
             videos={surveyVideos}
             title="Survey Videos"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
@@ -587,6 +852,7 @@ export default function Home() {
           <VideoGallery
             videos={documentaryVideos}
             title="Documentary Films"
+            horizontal={true}
           />
         </div>
       </SectionWrapper>
