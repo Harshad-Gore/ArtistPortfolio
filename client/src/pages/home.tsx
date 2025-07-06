@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ContactModal } from "@/components/ui/contact-modal";
 import { useState, useEffect } from "react";
-import { Mail, Phone, Instagram, Video, Lightbulb, Zap, FileText, Menu, X } from "lucide-react";
+import { Mail, Phone, Instagram, Video, Lightbulb, Zap, FileText, Menu, X, Film, Palette, Sparkles, TrendingUp } from "lucide-react";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -415,22 +415,22 @@ export default function Home() {
 
   const services = [
     {
-      icon: Video,
+      icon: Film,
       title: "Video Editing",
       description: "Professional video editing with attention to pacing, color grading, and storytelling flow."
     },
     {
-      icon: Lightbulb,
+      icon: Palette,
       title: "Motion Graphics",
       description: "Dynamic motion graphics and animations that bring your content to life."
     },
     {
-      icon: Zap,
+      icon: Sparkles,
       title: "VFX & Animation",
       description: "Advanced visual effects and 3D animation for cinematic storytelling."
     },
     {
-      icon: FileText,
+      icon: TrendingUp,
       title: "Brand Consulting",
       description: "Strategic brand guidance and visual identity development for content creators."
     }
@@ -565,8 +565,13 @@ export default function Home() {
 
       {/* Services Section */}
       <SectionWrapper id="services">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-bold text-4xl lg:text-5xl text-center mb-16">
+        <div className="relative max-w-7xl mx-auto px-6">
+          {/* Background decoration */}
+          <div className="absolute inset-0 opacity-5">
+            <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-full blur-3xl"></div>
+            <div className="absolute bottom-20 right-10 w-40 h-40 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-full blur-3xl"></div>
+          </div>
+          <h2 className="font-bold text-4xl lg:text-5xl text-center mb-16 relative z-10">
             My <span className="gradient-text">Services</span>
           </h2>
           <motion.div
@@ -586,8 +591,11 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 className="glass-morphism p-8 rounded-2xl group cursor-pointer"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-xl flex items-center justify-center mb-6 group-hover:animate-pulse">
-                  <service.icon className="w-8 h-8 text-white" />
+                <div className="relative mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-xl flex items-center justify-center group-hover:animate-pulse group-hover:shadow-xl group-hover:shadow-[hsl(15,100%,60%)]/25 transition-all duration-300">
+                    <service.icon className="w-8 h-8 text-white" />
+                  </div>
+                  <div className="absolute -inset-2 bg-gradient-to-r from-[hsl(15,100%,60%)]/20 to-[hsl(15,100%,65%)]/20 rounded-xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
                 </div>
                 <h3 className="font-bold text-2xl mb-4">{service.title}</h3>
                 <p className="text-[hsl(0,0%,40%)]">{service.description}</p>
