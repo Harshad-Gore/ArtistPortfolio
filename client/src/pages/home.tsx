@@ -284,10 +284,10 @@ export default function Home() {
   ];
 
   const tools = [
-    { name: "Adobe Premiere Pro", icon: "Pr" },
-    { name: "Adobe After Effects", icon: "Ae" },
-    { name: "DaVinci Resolve", icon: "DV" },
-    { name: "Blender", icon: "B" }
+    { name: "Adobe Premiere Pro", icon: "/attached_assets/Adobe_Premiere_Pro_CC_icon.svg_1751802886527.png" },
+    { name: "Adobe After Effects", icon: "/attached_assets/Adobe_After_Effects_CC_icon.svg_1751802886526.png" },
+    { name: "DaVinci Resolve", icon: "/attached_assets/DaVinci_Resolve_Studio_1751802886524.png" },
+    { name: "Blender", icon: "/attached_assets/Blender_logo_no_text.svg_1751802886528.png" }
   ];
 
   const creators = [
@@ -394,8 +394,12 @@ export default function Home() {
                     whileHover={{ scale: 1.05 }}
                     className="glass-morphism p-6 rounded-xl text-center cursor-pointer"
                   >
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">{tool.icon}</span>
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-lg flex items-center justify-center">
+                      <img
+                        src={tool.icon}
+                        alt={tool.name}
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                     <p className="font-semibold">{tool.name}</p>
                   </motion.div>
