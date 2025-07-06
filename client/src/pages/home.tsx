@@ -351,7 +351,7 @@ export default function Home() {
       id: "1",
       title: "@befitwithritvik - DITr2JEC7qR",
       description: "Fitness reel editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
+      thumbnail: "/fitness-reels-thumb.png",
       url: "https://www.instagram.com/befitwithritvik/reel/DITr2JEC7qR/",
       isVertical: true
     },
@@ -359,7 +359,7 @@ export default function Home() {
       id: "2",
       title: "@befitwithritvik - DIwMldtiUds",
       description: "Training content editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
+      thumbnail: "/fitness-reels-thumb.png",
       url: "https://www.instagram.com/befitwithritvik/reel/DIwMldtiUds/",
       isVertical: true
     },
@@ -367,7 +367,7 @@ export default function Home() {
       id: "3",
       title: "@befitwithritvik - DHaD4KBTmTH",
       description: "Fitness transformation reel",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Fitness+Reel",
+      thumbnail: "/fitness-reels-thumb.png",
       url: "https://www.instagram.com/befitwithritvik/reel/DHaD4KBTmTH/",
       isVertical: true
     }
