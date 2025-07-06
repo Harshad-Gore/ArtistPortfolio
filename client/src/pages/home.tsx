@@ -445,10 +445,10 @@ export default function Home() {
 
   const creators = [
     { name: "KIND", subscribers: "3.2M", icon: "K", url: "https://www.youtube.com/@KIND__" },
-    { name: "Vaad", subscribers: "849K", icon: "V", url: "#" },
-    { name: "Jimmy 7", subscribers: "728K", icon: "J7", url: "#" },
-    { name: "Apna Advantage", subscribers: "46K", icon: "AA", url: "#" },
-    { name: "SHOWMAN AF", subscribers: "46K", icon: "SA", url: "#" }
+    { name: "Vaad", subscribers: "849K", icon: "V", url: "https://www.youtube.com/@Vaad" },
+    { name: "Jimmy 7", subscribers: "728K", icon: "J7", url: "https://www.youtube.com/@thejimmy7" },
+    { name: "Apna Advantage", subscribers: "46K", icon: "AA", url: "https://www.youtube.com/@apnaadvantagedegree" },
+    { name: "SHOWMAN AF", subscribers: "46K", icon: "SA", url: "https://www.youtube.com/@ShowmanOnTOP" }
   ];
 
   const navigationItems = [
