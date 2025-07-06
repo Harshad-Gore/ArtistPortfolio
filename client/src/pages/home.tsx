@@ -444,11 +444,11 @@ export default function Home() {
   ];
 
   const creators = [
-    { name: "KIND", subscribers: "3.2M", icon: "K" },
-    { name: "Vaad", subscribers: "849K", icon: "V" },
-    { name: "Jimmy 7", subscribers: "728K", icon: "J7" },
-    { name: "Apna Advantage", subscribers: "46K", icon: "AA" },
-    { name: "SHOWMAN AF", subscribers: "46K", icon: "SA" }
+    { name: "KIND", subscribers: "3.2M", icon: "K", url: "https://www.youtube.com/@KIND__" },
+    { name: "Vaad", subscribers: "849K", icon: "V", url: "#" },
+    { name: "Jimmy 7", subscribers: "728K", icon: "J7", url: "#" },
+    { name: "Apna Advantage", subscribers: "46K", icon: "AA", url: "#" },
+    { name: "SHOWMAN AF", subscribers: "46K", icon: "SA", url: "#" }
   ];
 
   const navigationItems = [
@@ -618,13 +618,19 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
                 whileHover={{ scale: 1.05 }}
-                className="glass-morphism p-6 rounded-2xl text-center cursor-pointer"
               >
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">{creator.icon}</span>
-                </div>
-                <h3 className="font-bold text-lg mb-2">{creator.name}</h3>
-                <p className="text-[hsl(15,100%,60%)] font-semibold">{creator.subscribers}</p>
+                <a
+                  href={creator.url}
+                  target={creator.url !== "#" ? "_blank" : "_self"}
+                  rel={creator.url !== "#" ? "noopener noreferrer" : ""}
+                  className="block glass-morphism p-6 rounded-2xl text-center cursor-pointer hover:bg-[hsl(15,100%,60%)]/5 transition-colors duration-300"
+                >
+                  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">{creator.icon}</span>
+                  </div>
+                  <h3 className="font-bold text-lg mb-2">{creator.name}</h3>
+                  <p className="text-[hsl(15,100%,60%)] font-semibold">{creator.subscribers}</p>
+                </a>
               </motion.div>
             ))}
           </motion.div>
