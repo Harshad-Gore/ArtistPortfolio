@@ -234,7 +234,7 @@ export default function Home() {
       id: "19",
       title: "Drive Video - 1bRu3R-lY7IIgVEMyzojdR22rfDQaLLuu",
       description: "Creative short from Drive",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Drive+Video",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1bRu3R-lY7IIgVEMyzojdR22rfDQaLLuu/view?usp=sharing",
       isVertical: true
     },
@@ -242,7 +242,7 @@ export default function Home() {
       id: "20",
       title: "Instagram Reel - CyI4xTsvgDv",
       description: "Instagram Reel editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CyI4xTsvgDv/?igsh=Y2ZmOGU3amdqNm4w",
       isVertical: true
     },
@@ -250,7 +250,7 @@ export default function Home() {
       id: "21",
       title: "Drive Video - 1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8",
       description: "Creative short from Drive",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Drive+Video",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8/view?usp=sharing",
       isVertical: true
     },
@@ -258,7 +258,7 @@ export default function Home() {
       id: "22",
       title: "Instagram Reel - CoDHnfBgkxT",
       description: "Instagram Reel editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CoDHnfBgkxT",
       isVertical: true
     },
@@ -266,7 +266,7 @@ export default function Home() {
       id: "23",
       title: "Instagram Reel - CtZEq0Og6F8",
       description: "Instagram Reel editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/CtZEq0Og6F8",
       isVertical: true
     },
@@ -274,7 +274,7 @@ export default function Home() {
       id: "24",
       title: "Instagram Reel - Cqco5fpj5d",
       description: "Instagram Reel editing",
-      thumbnail: "https://via.placeholder.com/300x533/1a1a1a/ff6b35?text=Instagram+Reel",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://www.instagram.com/reel/Cqco5fpj5d",
       isVertical: true
     }
@@ -286,21 +286,21 @@ export default function Home() {
       id: "1",
       title: "Real Estate Video - 1ow_zuGhR3HXHd7GGxH3JsIQfCj_UF_zh",
       description: "Professional property showcase",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
+      thumbnail: "/real-estate-thumb.png",
       url: "https://drive.google.com/file/d/1ow_zuGhR3HXHd7GGxH3JsIQfCj_UF_zh/view"
     },
     {
       id: "2",
       title: "Real Estate Video - 1oVJ3SzmZrtHJPtKjTR5uB2A7gLk2F5xl",
       description: "Property tour editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
+      thumbnail: "/real-estate-thumb.png",
       url: "https://drive.google.com/file/d/1oVJ3SzmZrtHJPtKjTR5uB2A7gLk2F5xl/view"
     },
     {
       id: "3",
       title: "Real Estate Video - 1-a5SRQhH35fcPyYM8dKll_CUETukoF7h",
       description: "Commercial property presentation",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Real+Estate",
+      thumbnail: "/real-estate-thumb.png",
       url: "https://drive.google.com/file/d/1-a5SRQhH35fcPyYM8dKll_CUETukoF7h/view"
     }
   ];
@@ -310,21 +310,21 @@ export default function Home() {
       id: "1",
       title: "Wedding Film - DJtmzgNsRj8",
       description: "Instagram wedding highlight",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
+      thumbnail: "/wedding-films-thumb.png",
       url: "https://www.instagram.com/p/DJtmzgNsRj8/"
     },
     {
       id: "2",
       title: "Wedding Film - DGD5YLTyHU0",
       description: "Wedding ceremony editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
+      thumbnail: "/wedding-films-thumb.png",
       url: "https://www.instagram.com/p/DGD5YLTyHU0/"
     },
     {
       id: "3",
       title: "Wedding Film - C-i4SpyMNKQ",
       description: "Wedding story editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Instagram+Wedding+Film",
+      thumbnail: "/wedding-films-thumb.png",
       url: "https://www.instagram.com/p/C-i4SpyMNKQ/"
     }
   ];
@@ -334,14 +334,14 @@ export default function Home() {
       id: "1",
       title: "Stand-Up Video - 1WyEn7SwDsEfi6-TAf9QL2YCi1PZXmfYw",
       description: "Comedy performance editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Stand+Up",
+      thumbnail: "/standup-comedy-thumb.png",
       url: "https://drive.google.com/file/d/1WyEn7SwDsEfi6-TAf9QL2YCi1PZXmfYw/view"
     },
     {
       id: "2",
       title: "Stand-Up Video - 1QdSgWOSbl7Ce-CGB76Hzkj8p1UN3nSxe",
       description: "Live performance capture",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Stand+Up",
+      thumbnail: "/standup-comedy-thumb.png",
       url: "https://drive.google.com/file/d/1QdSgWOSbl7Ce-CGB76Hzkj8p1UN3nSxe/view"
     }
   ];
@@ -378,21 +378,21 @@ export default function Home() {
       id: "1",
       title: "Survey Video - 1CMGnzK3cM4SrrtETnH23xAh9BZixSGn5",
       description: "Street interview editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1CMGnzK3cM4SrrtETnH23xAh9BZixSGn5/view"
     },
     {
       id: "2",
       title: "Survey Video - 1Ckyk8ieUupvay0xJ4VYxDWags8c7Wc6z",
       description: "Interview series editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1Ckyk8ieUupvay0xJ4VYxDWags8c7Wc6z/view"
     },
     {
       id: "3",
       title: "Survey Video - 1Qd4cvgwMM9phjKVvHweSSL6JvyprST1v",
       description: "Research content editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Survey",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1Qd4cvgwMM9phjKVvHweSSL6JvyprST1v/view"
     }
   ];
@@ -402,14 +402,14 @@ export default function Home() {
       id: "1",
       title: "Documentary - 1tJrYB3br2C1QlHGbpmfjgRWCytDSy10q",
       description: "Documentary film editing",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Documentary",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/1tJrYB3br2C1QlHGbpmfjgRWCytDSy10q/view"
     },
     {
       id: "2",
       title: "Documentary - 11zMy9tNd5FSUlIkEvA7fpLhKtCULvDmn",
       description: "Documentary storytelling",
-      thumbnail: "https://via.placeholder.com/600x338/1a1a1a/ff6b35?text=Drive+Video+-+Documentary",
+      thumbnail: "/reels-short-thumb.png",
       url: "https://drive.google.com/file/d/11zMy9tNd5FSUlIkEvA7fpLhKtCULvDmn/view"
     }
   ];
