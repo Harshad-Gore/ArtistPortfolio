@@ -444,11 +444,11 @@ export default function Home() {
   ];
 
   const creators = [
-    { name: "KIND", subscribers: "3.2M", icon: "K", url: "https://www.youtube.com/@KIND__" },
-    { name: "Vaad", subscribers: "849K", icon: "V", url: "https://www.youtube.com/@Vaad" },
-    { name: "Jimmy 7", subscribers: "728K", icon: "J7", url: "https://www.youtube.com/@thejimmy7" },
-    { name: "Apna Advantage", subscribers: "46K", icon: "AA", url: "https://www.youtube.com/@apnaadvantagedegree" },
-    { name: "SHOWMAN AF", subscribers: "46K", icon: "SA", url: "https://www.youtube.com/@ShowmanOnTOP" }
+    { name: "KIND", subscribers: "3.2M", logo: "/creator-kind.jpg", url: "https://www.youtube.com/@KIND__" },
+    { name: "Vaad", subscribers: "849K", logo: "/creator-vaad.jpg", url: "https://www.youtube.com/@Vaad" },
+    { name: "Jimmy 7", subscribers: "728K", logo: "/creator-jimmy7.jpg", url: "https://www.youtube.com/@thejimmy7" },
+    { name: "Apna Advantage", subscribers: "46K", logo: "/creator-apna.jpg", url: "https://www.youtube.com/@apnaadvantagedegree" },
+    { name: "SHOWMAN AF", subscribers: "46K", logo: "/creator-showman.jpg", url: "https://www.youtube.com/@ShowmanOnTOP" }
   ];
 
   const navigationItems = [
@@ -625,8 +625,12 @@ export default function Home() {
                   rel={creator.url !== "#" ? "noopener noreferrer" : ""}
                   className="block glass-morphism p-6 rounded-2xl text-center cursor-pointer hover:bg-[hsl(15,100%,60%)]/5 transition-colors duration-300"
                 >
-                  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">{creator.icon}</span>
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden border-2 border-[hsl(15,100%,60%)]">
+                    <img
+                      src={creator.logo}
+                      alt={`${creator.name} logo`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="font-bold text-lg mb-2">{creator.name}</h3>
                   <p className="text-[hsl(15,100%,60%)] font-semibold">{creator.subscribers}</p>
