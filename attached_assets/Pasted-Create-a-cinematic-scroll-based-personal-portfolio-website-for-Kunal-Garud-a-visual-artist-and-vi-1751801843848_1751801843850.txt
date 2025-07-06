@@ -1,0 +1,126 @@
+Create a cinematic, scroll-based personal portfolio website for Kunal Garud — a visual artist and video editor. Use a black background with red-orange accent gradients, smooth Apple-style animations, and bold sans-serif fonts. Each section should have subtle transitions and horizontal scroll where applicable.
+
+---
+
+Page 1 – Hero:
+• Heading: “I’m Kunal Garud”
+• Subtext: “Visual Artist”
+• Left-aligned text with hero image on the right (Image: pic_3.1.1.png)
+• A red “Hire Me” button → opens popup with:
+   - Email: kunalgarud2@gmail.com
+   - Phone: +91 9579073855
+   - IG: https://www.instagram.com/kunaalgarud/
+
+---
+
+Page 2 – About Me:
+• Text block:
+"I'm a passionate Video Editor and Visual Artist, constantly upskilling in the realms of video editing, motion graphics, VFX, animation, and storytelling. With a keen eye for detail and a strong narrative sense, I elevate content through compelling visuals and impactful storytelling that connects with audiences."
+• Below: “Tools I Use” section with logos (you’ll upload these):
+   - Adobe Premiere Pro (Adobe_Premiere_Pro_CC_icon.svg.png)
+   - Adobe After Effects (Adobe_After_Effects_CC_icon.svg.png)
+   - DaVinci Resolve (DaVinci_Resolve_Studio.png)
+   - Blender (Blender_logo_no_text.svg.png)
+
+---
+
+Page 3 – Services (2x2 grid Arctic card style with subtle hover effects):
+• Video Editing  
+• Motion Graphics  
+• VFX & Animation  
+• Brand Consulting
+
+---
+
+Page 4 – Creators I’ve Worked With (logo grid + subscriber count):
+• KIND – 3.2M (kind.jpg)  
+• Vaad – 849K (vaad.jpg)  
+• Jimmy 7 – 728K (jimmy7.jpg)  
+• Apna Advantage – 46K (apna.jpg)  
+• SHOWMAN AF – 46K (showman.jpg)
+
+---
+
+Page 5 – YouTube Edits (horizontal scroll layout with video previews):
+• https://youtu.be/MWWMG_qBU50  
+• https://youtu.be/7EuslqHdDUg  
+• https://youtu.be/anmjZV8-qZE  
+• https://youtu.be/-ZxBFT3ixSg  
+• https://youtu.be/g4SXvT3Agrk
+
+---
+
+Page 6 – Commercials:
+Grid with embed previews:
+• https://www.instagram.com/p/C_XwUrwsSZs/  
+• https://www.instagram.com/p/DALVPYky00j/  
+• Drive folder: https://drive.google.com/drive/folders/10yPGlZrZQmPzXcx5W0r0Nl_24tSIPzCm
+
+---
+
+Page 7 – Reels / Shorts:
+Horizontal scrollable gallery with:
+• YouTube Shorts: https://www.youtube.com/shorts/sT17F1BvvXg (and more)  
+• Instagram Reels: https://www.instagram.com/reel/CyI4xTsvgDv/  
+• Drive files: https://drive.google.com/file/d/1dUAntYz3mjCU_2-1dD_lkcCLAAMre6j8/view
+
+---
+
+Page 8 – Real Estate:
+Drive video previews in masonry layout:
+• https://drive.google.com/file/d/1ow_zuGhR3HXHd7GGxH3JsIQfCj_UF_zh/view  
+• https://drive.google.com/file/d/1oVJ3SzmZrtHJPtKjTR5uB2A7gLk2F5xl/view  
+• https://drive.google.com/file/d/1-a5SRQhH35fcPyYM8dKll_CUETukoF7h/view
+
+---
+
+Page 9 – Wedding Films:
+IG reels and Drive links styled like YT gallery:
+• https://www.instagram.com/p/DJtmzgNsRj8/  
+• https://www.instagram.com/p/DGD5YLTyHU0/  
+• https://www.instagram.com/p/C-i4SpyMNKQ/
+
+---
+
+Page 10 – Stand-Up:
+Two Drive embed previews in a 2-column layout:
+• https://drive.google.com/file/d/1WyEn7SwDsEfi6-TAf9QL2YCi1PZXmfYw/view  
+• https://drive.google.com/file/d/1QdSgWOSbl7Ce-CGB76Hzkj8p1UN3nSxe/view
+
+---
+
+Page 11 – Fitness Section:
+Embed reels from @befitwithritvik:
+• https://www.instagram.com/befitwithritvik/reel/DITr2JEC7qR/  
+• https://www.instagram.com/befitwithritvik/reel/DIwMldtiUds/  
+• https://www.instagram.com/befitwithritvik/reel/DHaD4KBTmTH/
+
+---
+
+Page 12 – SBI SPELLBEE Campaign:
+• Full-width promo style embed from:
+  - https://drive.google.com/drive/folders/10yPGlZrZQmPzXcx5W0r0Nl_24tSIPzCm
+
+---
+
+Page 13 – Survey Videos:
+Responsive scroll section for these:
+• https://drive.google.com/file/d/1CMGnzK3cM4SrrtETnH23xAh9BZixSGn5/view  
+• https://drive.google.com/file/d/1Ckyk8ieUupvay0xJ4VYxDWags8c7Wc6z/view  
+• https://drive.google.com/file/d/1Qd4cvgwMM9phjKVvHweSSL6JvyprST1v/view
+
+---
+
+Page 14 – Documentary:
+Dark full-width card layout with Drive previews:
+• https://drive.google.com/file/d/1tJrYB3br2C1QlHGbpmfjgRWCytDSy10q/view  
+• https://drive.google.com/file/d/11zMy9tNd5FSUlIkEvA7fpLhKtCULvDmn/view
+
+---
+
+Page 15 – Contact:
+• “Let’s Work Together” CTA  
+• IG: https://www.instagram.com/kunaalgarud/  
+• Email: kunalgarud2@gmail.com  
+• Phone: +91 9579073855  
+• Footer: © 2025 Kunal Garud | All Rights Reserved
