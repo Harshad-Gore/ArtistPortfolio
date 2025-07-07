@@ -1,4 +1,4 @@
-# 🎨 Kunal Garud - Visual Artist & Video Editor Portfolio
+# 🎨 Kunal - Visual Artist & Video Editor Portfolio
 
 Welcome to the digital playground of **Kunal Garud** - where pixels meet perfection and frames tell stories! 🎬✨
 
