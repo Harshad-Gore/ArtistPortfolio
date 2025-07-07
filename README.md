@@ -84,4 +84,4 @@ Ready to bring your vision to life? Kunal's always up for a creative challenge!
 
 **© 2025 Kunal Garud - Making boring videos illegal since 2004** 
 
-*Deployed with love* �
+*Deployed with love ❤️*
