@@ -82,5 +82,6 @@ Ready to bring your vision to life? Kunal's always up for a creative challenge!
 
 *P.S. - Kunal makes magic happen on screen, but when it comes to deployment... well, that's what friends are for!* 😄🤝
 
-**© 2025 Kunal Garud - Making boring videos illegal since [2004]** 
+**© 2025 Kunal Garud - Making boring videos illegal since 2004** 
+
 *Deployed with love* �
