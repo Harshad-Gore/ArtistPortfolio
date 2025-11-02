@@ -1,10 +1,10 @@
-Create a cinematic, scroll-based personal portfolio website for Kunal Garud — a visual artist and video editor. Use a black background with red-orange accent gradients, smooth Apple-style animations, and bold sans-serif fonts. Each section should have subtle transitions and horizontal scroll where applicable.
+Create a cinematic, scroll-based personal portfolio website for Kunal Garud — a Creative Director and video editor. Use a black background with red-orange accent gradients, smooth Apple-style animations, and bold sans-serif fonts. Each section should have subtle transitions and horizontal scroll where applicable.
 
 ---
 
 Page 1 – Hero:
 • Heading: “I’m Kunal Garud”
-• Subtext: “Visual Artist”
+• Subtext: “Creative Director”
 • Left-aligned text with hero image on the right (Image: pic_3.1.1.png)
 • A red “Hire Me” button → opens popup with:
    - Email: kunalgarud2@gmail.com
@@ -15,7 +15,7 @@ Page 1 – Hero:
 
 Page 2 – About Me:
 • Text block:
-"I'm a passionate Video Editor and Visual Artist, constantly upskilling in the realms of video editing, motion graphics, VFX, animation, and storytelling. With a keen eye for detail and a strong narrative sense, I elevate content through compelling visuals and impactful storytelling that connects with audiences."
+"I'm a passionate Video Editor and Creative Director, constantly upskilling in the realms of video editing, motion graphics, VFX, animation, and storytelling. With a keen eye for detail and a strong narrative sense, I elevate content through compelling visuals and impactful storytelling that connects with audiences."
 • Below: “Tools I Use” section with logos (you’ll upload these):
    - Adobe Premiere Pro (Adobe_Premiere_Pro_CC_icon.svg.png)
    - Adobe After Effects (Adobe_After_Effects_CC_icon.svg.png)

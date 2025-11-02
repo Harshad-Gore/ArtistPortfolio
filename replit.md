@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a personal portfolio website for Kunal Garud, a visual artist and video editor. The application is built as a full-stack web application using React for the frontend and Express.js for the backend, with a focus on creating a cinematic, scroll-based experience with smooth animations and modern UI components.
+This project is a personal portfolio website for Kunal Garud, a Creative Director and video editor. The application is built as a full-stack web application using React for the frontend and Express.js for the backend, with a focus on creating a cinematic, scroll-based experience with smooth animations and modern UI components.
 
 ## System Architecture
 

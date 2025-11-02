@@ -1,4 +1,4 @@
-# 🎨 Kunal - Visual Artist & Video Editor Portfolio
+# 🎨 Kunal - Creative Director & Video Editor Portfolio
 
 Welcome to the digital playground of **Kunal Garud** - where pixels meet perfection and frames tell stories! 🎬✨
 
@@ -8,7 +8,7 @@ Welcome to the digital playground of **Kunal Garud** - where pixels meet perfect
 > *Warning: May cause excessive jaw-dropping and uncontrollable urges to hire immediately* 😄
 
 ## 👨‍🎨 About Kunal
-Kunal is a professional video editor and visual artist who specializes in:
+Kunal is a professional video editor and Creative Director who specializes in:
 - 🎞️ Motion Graphics & VFX
 - 🎨 Cinematic Storytelling
 - ⚡ Animation Magic

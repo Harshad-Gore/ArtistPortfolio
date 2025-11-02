@@ -19,7 +19,7 @@ export function HeroSection() {
             <h1 className="font-bold text-5xl md:text-6xl lg:text-8xl leading-tight mb-6">
               I'm <span className="gradient-text">Kunal Garud</span>
             </h1>
-            <p className="text-2xl lg:text-3xl text-[hsl(0,0%,40%)] mb-8">Visual Artist</p>
+            <p className="text-2xl lg:text-3xl text-[hsl(0,0%,40%)] mb-8">Creative Director</p>
             <Button
               onClick={() => setIsModalOpen(true)}
               className="bg-gradient-to-r from-[hsl(15,100%,60%)] to-[hsl(15,100%,65%)] px-8 py-6 text-lg hover:scale-105 transition-transform duration-300 glow-effect"
