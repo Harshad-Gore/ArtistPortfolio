@@ -605,7 +605,7 @@ export default function Home() {
                 About <span className="gradient-text">Me</span>
               </h2>
               <p className="text-lg lg:text-xl text-[hsl(0,0%,40%)] leading-relaxed mb-12">
-                I'm a passionate Video Editor and Creative Director, constantly upskilling in the realms of video editing, motion graphics, VFX, animation, and storytelling. With a keen eye for detail and a strong narrative sense, I elevate content through compelling visuals and impactful storytelling that connects with audiences.
+                I'm a passionate Editor, Creative Director, constantly upskilling in the realms of video editing, motion graphics, VFX, animation, and storytelling. With a keen eye for detail and a strong narrative sense, I elevate content through compelling visuals and impactful storytelling that connects with audiences.
               </p>
             </motion.div>
             <motion.div
